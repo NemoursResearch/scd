@@ -1,0 +1,90 @@
+/*
+Theme Name: SCD COBRE
+Description: A child theme based on Avada :
+Author: Derek Freer
+Theme URI: http://theme-fusion.com/avada/
+Author URI: http://themeforest.net/user/ThemeFusion
+Version: 3.4.3
+License: GNU General Public License
+License URI: license.txt
+Template: Avada
+*/
+
+.mt0 { margin-top: 0; }
+.copyright { text-shadow: none; }
+.normal_logo { width: 600px; }
+.wp-block-separator { border: none; background-color: #efefef; height: 2px; margin: 2em 0; padding: 0; }
+.footer-area { border-top-width: 1px; }
+.footer-area .image { width: 100%; max-height: auto; }
+.bio { border-top: 1px solid #efefef; padding-top: 1em; margin-top: 1em; }
+.bio:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+.bio.wp-block-media-text { grid-template-columns: 125px auto; }
+.bio .wp-block-media-text__media, .bio .wp-block-media-text__content { align-self: start; }
+.bio .wp-block-media-text__content h3 { margin-top: 0; }
+.bio .wp-block-media-text__content h3 .icon-link { font-size: 75%; margin-left: .5em; }
+.bio img { width: 140px !important; height: auto; }
+
+figure.alignright, figure.alignleft { margin-top: 0; }
+
+#small-nav #nav ul li.current-page-ancestor a {
+    color: #4FA4B4 !important;
+}
+
+.page-template-contact #sidebar { display: none; }
+.page-template-contact #main #content { width: 100%; }
+
+#main .portfolio-one .button, #main .comment-submit, #reviews input#submit, .comment-form input[type="submit"], .wpcf7-form input[type="submit"], .bbp-submit-wrapper button, .button.default, .price_slider_amount button, .gform_wrapper .gform_button, .woocommerce .single_add_to_cart_button, .woocommerce .shipping-calculator-form .button, .woocommerce form.checkout #place_order, .woocommerce .checkout_coupon .button, .woocommerce .login .button, .woocommerce .register .button, .woocommerce .avada-order-details .order-again .button, .woocommerce .avada-order-details .order-again .button {
+    font-weight: normal !important; cursor: pointer;
+}
+
+.side-nav{
+	list-style:none;
+	margin:0;
+	padding:0;
+	border: none !important;
+	margin-bottom:20px;
+}
+.side-nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.side-nav li{
+	margin:0;
+	padding:0;
+}
+.side-nav li a{
+	border-bottom:1px solid #ededed !important;
+	display:block;
+	background: none !important;
+	height:auto;
+	font-weight: normal !important;
+	font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
+	color:#333333 !important;
+}
+.side-nav li a {
+	line-height: 18px !important;
+	padding: 8px 0!important;
+}
+.side-nav li a:hover{
+}
+.side-nav li.current_page_item > a{
+	background:none !important;
+	color:#a0ce4e !important;
+	border-right:3px solid #a0ce4e;
+}
+.side-nav li.current_page_item li a{
+	color:#333333 !important;
+	border-bottom:1px solid #ededed;
+}
+.side-nav ul.children{
+	margin-left:10px !important;
+	display: none;
+}
+.side-nav .arrow,.woocommerce-tabs .tabs a:hover .arrow,.woocommerce-tabs .tabs li.active a .arrow{
+	display:inline-block;
+	margin-left:10px;
+	padding-right:0 !important;
+}
+
+.footer-area { border-top-color: #777; border-top-width: 7px; }
